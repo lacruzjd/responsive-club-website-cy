@@ -17,5 +17,8 @@
 /* main */
 @import url(./layout/main.css);
 
+/* galeria */
+@import url(./layout/galeria.css);
+
 /* footer */
 @import url(./layout/footer.css);

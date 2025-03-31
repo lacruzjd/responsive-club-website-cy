@@ -1,15 +1,31 @@
 header {
+    position: fixed;
+    left: 0;
+    right: 0;
     height: var(--spacer-xl);
-    padding: var(--spacer-base) var(--spacer-m);
+    padding: var(--spacer-s) var(--spacer-m);
     background-color: var(--primary);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1
+    ;
+}
+
+nav a {
+    margin: var(--spacer-s);
+    color: var(--secondary-v1);
+    font-family: var(--font-secondary);
+}
+
+nav a:hover {
+    color: var(--acento-primary);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {
 
-    header{
+    header {
         justify-content: center;
     }
 

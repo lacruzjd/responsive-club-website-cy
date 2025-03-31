@@ -1,0 +1,41 @@
+#galeria {
+    padding: var(--spacer-m);
+}
+
+.galeria {
+    margin: var(--spacer-m) 0;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-auto-flow: dense;
+    gap: var(--spacer-m);
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.galeria .destacada {
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+@media screen and (max-width: 700px) {
+    .galeria {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .galeria img {
+        margin: auto;
+        width: 80%;
+    }
+
+    .galeria .destacada {
+        width: 100%;
+    }
+}

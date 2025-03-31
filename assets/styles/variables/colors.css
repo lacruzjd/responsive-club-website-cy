@@ -14,6 +14,7 @@
     /* colores de acento */
     --acento-primary: #9afa00;
     --acento-secondary: #00c3ff;
+    --acento-strong: #4a01a9;
 
     /* colores de navegacion */
     --link-hover: var(--acento-primary);

@@ -1,0 +1,7 @@
+:root {
+    --spacer-base: 1rem;
+    --spacer-s: calc(var(--spacer-base) * 0.5);
+    --spacer-m: calc(var(--spacer-base) * 2);
+    --spacer-l: calc(var(--spacer-base) * 3);
+    --spacer-xl: calc(var(--spacer-base) * 4);
+}

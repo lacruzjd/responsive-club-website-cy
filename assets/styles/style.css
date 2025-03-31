@@ -1,0 +1,21 @@
+/* base */
+@import url(./reset.css);
+@import url(./variables/typography.css);
+@import url(./variables/colors.css);
+@import url(./base.css);
+@import url(./variables/spacer.css);
+@import url(./layout/grid.css);
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+
+/* header */
+@import url(./layout/header.css);
+
+/* main */
+@import url(./layout/main.css);
+
+/* footer */
+@import url(./layout/footer.css);

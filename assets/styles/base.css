@@ -1,0 +1,38 @@
+html {
+    font-size: var(--text-base);
+}
+
+/* text */
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-primary);
+}
+
+h1 {
+    font-size: var(--text-l);
+    color: var(--secondary-v1);
+}
+
+h2 {
+    margin: var(--spacer-m) 0;
+    font-size: var(--text-m);
+    color: var(--secondary-v-1);
+}
+
+h3 {
+    margin: var(--spacer-s) 0;
+    font-size: var(--text-base);
+    color: var(--secondary-v-2);
+}
+
+p {
+    font-family: var(--font-secondary);
+}
+
+/* colors */
+
+body {
+    background-color: var(--secondary-v2);
+}

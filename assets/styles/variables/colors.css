@@ -1,0 +1,20 @@
+:root {
+    --primary-v2: #e3faf4;
+    --primary-v1: #573482;
+    --primary: #3a006c;
+    --primary-v-1: #3431c3;
+    --primary-v-2: #271176;
+
+    --secondary-v2: #cdd1cc;
+    --secondary-v1: #d2e4b7;
+    --secondary: #afff4d;
+    --secondary-v-1: #87ac18;
+    --secondary-v-2: #3e750d;
+
+    /* colores de acento */
+    --acento-primary: #9afa00;
+    --acento-secondary: #00c3ff;
+
+    /* colores de navegacion */
+    --link-hover: var(--acento-primary);
+}

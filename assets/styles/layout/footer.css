@@ -1,0 +1,24 @@
+footer {
+    height: var(--spacer-xl);
+    padding: var(--spacer-s);
+    background-color: var(--primary-v1);
+    font-size: var(--text-ss);
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    color: var(--secondary-v1);
+}
+
+.redes-sociales{
+    text-align: center;
+}
+
+.redes-sociales p {
+    margin-bottom: var(--spacer-s);
+}
+
+@media screen and (max-width: 700px) {
+    .redes-sociales p {
+        display: none
+    };
+}
